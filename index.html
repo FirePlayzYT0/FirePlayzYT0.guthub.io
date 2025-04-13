@@ -23,7 +23,7 @@
     <ul>
       <li>
         <img src="assets/images/youtube.png" alt="YouTube" class="icon" />
-        <a href="https://youtube.com/@fireplayznep" target="_blank">YouTube</a>
+        <a href="https://www.youtube.com/@FirePlayzYT0" target="_blank">YouTube</a>
       </li>
       <li>
         <img src="assets/images/discord.png" alt="Discord" class="icon" />
@@ -38,11 +38,14 @@
 
   <section class="contact">
     <h2>Contact Me</h2>
-    <form id="contactForm">
-      <input type="text" placeholder="Your Name" required />
-      <input type="email" placeholder="Your Email" required />
-      <textarea placeholder="messages" required></textarea>
+    <form id="contactForm" action="https://formsubmit.co/magorketo62@gmail.com" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" placeholder="Message" required></textarea>
       <button type="submit">Send</button>
+
+      <!-- Optional: Redirect to the same page after submit -->
+      <input type="hidden" name="_next" value="https://fireplayzyt0.github.io" />
     </form>
     <p id="message"></p>
   </section>
